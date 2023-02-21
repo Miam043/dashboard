@@ -1,0 +1,153 @@
+.App {
+  text-align: center;
+  padding: 10px 30px;
+  max-width: 100% !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inputBuscar{
+  width: 30% !important;
+float: left;
+}
+
+table{
+  min-width: 500px;
+}
+
+.containerInput{
+  right: 0;
+  padding-bottom: 25px;
+  text-align: initial;
+}
+
+@media (max-width: 988px){
+  
+  .inputBuscar{
+    width: 100% !important;
+  }
+
+  .App{
+    padding: 10px 5px;
+  }
+
+.containerInput{
+  padding-bottom: 15px;
+}
+
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #4CAF50; 
+  color: rgb(255, 255, 255); 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: white;
+  color: #4CAF50;
+}
+
+.button2 {
+  background-color: #f44336; 
+  color: rgb(255, 255, 255); 
+  border: 2px solid #f44336;
+}
+
+.button2:hover {
+  background-color: #ffffff;
+  color: #f44336;
+}
+
+.addButton {
+  float: right;
+}
+
+.buttonadd {
+  border-radius: 4px;
+  background-color: #FF8C00;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 90px;
+  transition: all 0.4s;
+  cursor: pointer;
+  margin: 3px;
+  
+}
+
+.buttonadd span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttonadd span:after {
+  content: '+';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttonadd:hover span {
+  padding-right: 10px;
+}
+
+.buttonadd:hover span:after {
+  opacity: 2;
+  right: 0;
+}
+
